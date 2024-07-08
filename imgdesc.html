@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Summary</title>
+    <link rel="stylesheet" href="./imgdesc.css" />
+    <script src="imgdesc.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="nav-logo">
+          <img
+            src="https://ik.imagekit.io/tedxsitb/book-logo.png?updatedAt=1720370243484"
+          />
+        </div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Login</a>
+          <a href="#">Signup</a>
+        </div>
+      </div>
+      <div class="input-section">
+        <input type="text" id="input1" placeholder="Book-1 Summary " />
+        <input type="text" id="input2" placeholder="Book-2 Summary" />
+        <button onclick="handleClick()">Add</button>
+      </div>
+      <div class="content" id="parentContent"></div>
+    </div>
+  </body>
+</html>
